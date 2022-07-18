@@ -1,9 +1,10 @@
-import SassComponent from "./SassComponent";
+import React from "react";
+import CSSModule from "./CSSModule";
 
 function App() {
   return (
     <div>
-      <SassComponent></SassComponent>
+      <CSSModule></CSSModule>
     </div>
   );
 }
