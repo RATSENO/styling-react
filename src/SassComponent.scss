@@ -1,5 +1,10 @@
 .SassComponent {
     display: flex;
+    background: $oc-gray-2;
+    @include media('<768px'){
+        background: $oc-gray-9;
+        transition: all 0.3s ease-in;
+    }
     .box {//일반 CSS에서는 .SassComponent .box와 같음
         background: red;
         cursor: pointer;
